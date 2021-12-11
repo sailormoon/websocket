@@ -1,4 +1,4 @@
-module github.com/kirill-scherba/websocket
+module github.com/sailormoon/websocket
 
 go 1.13
 
