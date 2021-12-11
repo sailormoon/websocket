@@ -1,4 +1,4 @@
-package websocket // import "nhooyr.io/websocket"
+package websocket // import "github.com/sailormoon/websocket"
 
 import (
 	"bytes"
@@ -13,9 +13,9 @@ import (
 	"sync"
 	"syscall/js"
 
-	"nhooyr.io/websocket/internal/bpool"
-	"nhooyr.io/websocket/internal/wsjs"
-	"nhooyr.io/websocket/internal/xsync"
+	"github.com/sailormoon/websocket/internal/bpool"
+	"github.com/sailormoon/websocket/internal/wsjs"
+	"github.com/sailormoon/websocket/internal/xsync"
 )
 
 // Conn provides a wrapper around the browser WebSocket API.
